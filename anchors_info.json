@@ -2,83 +2,10 @@
     {
         "condition": [
             "Total_Trans_Ct <= 54.00",
-            "Total_Relationship_Count <= 2.00",
-            "Total_Ct_Chng_Q4_Q1 <= 0.50"
+            "Total_Relationship_Count <= 2.00"
         ],
-        "Quantity covered": 240,
-        "confidence interval": 0.9802731411229135
-    },
-    {
-        "condition": [
-            "Total_Trans_Ct <= 54.00",
-            "Total_Revolving_Bal <= 1000.00",
-            "Total_Ct_Chng_Q4_Q1 <= 0.65",
-            "Marital_Status_Divorced > 0.00"
-        ],
-        "Quantity covered": 61,
-        "confidence interval": 1.0
-    },
-    {
-        "condition": [
-            "Total_Trans_Ct <= 40.00",
-            "Avg_Utilization_Ratio <= 0.00",
-            "Months_Inactive_12_mon > 3.00"
-        ],
-        "Quantity covered": 47,
-        "confidence interval": 0.9914529914529915
-    },
-    {
-        "condition": [
-            "Total_Trans_Amt > 4620.00",
-            "Total_Revolving_Bal <= 1000.00",
-            "Months_Inactive_12_mon > 2.00",
-            "Gender > 0.00",
-            "Months_on_book > 31.00",
-            "Marital_Status_Married <= 0.00",
-            "Dependent_count > 1.00",
-            "Education_Level_Graduate <= 0.00"
-        ],
-        "Quantity covered": 22,
-        "confidence interval": 0.9532467532467532
-    },
-    {
-        "condition": [
-            "Total_Trans_Ct <= 54.00",
-            "Total_Relationship_Count <= 2.00",
-            "Contacts_Count_12_mon > 3.00"
-        ],
-        "Quantity covered": 119,
-        "confidence interval": 1.0
-    },
-    {
-        "condition": [
-            "Total_Trans_Ct <= 54.00",
-            "Total_Relationship_Count <= 2.00",
-            "Marital_Status_Divorced > 0.00"
-        ],
-        "Quantity covered": 32,
-        "confidence interval": 1.0
-    },
-    {
-        "condition": [
-            "Total_Trans_Ct <= 40.00",
-            "Total_Ct_Chng_Q4_Q1 <= 0.50",
-            "Total_Trans_Amt > 2046.00",
-            "Months_on_book > 40.00"
-        ],
-        "Quantity covered": 41,
-        "confidence interval": 0.9842105263157894
-    },
-    {
-        "condition": [
-            "Total_Trans_Ct <= 40.00",
-            "Total_Ct_Chng_Q4_Q1 <= 0.50",
-            "Gender <= 0.00",
-            "Marital_Status_Married <= 0.00",
-            "Months_on_book > 36.00"
-        ],
-        "Quantity covered": 42,
-        "confidence interval": 0.9873417721518988
+        "Quantity covered": 438,
+        "confidence interval": 0.9409282700421941
     },
     {
         "condition": [
@@ -87,15 +14,124 @@
             "Months_Inactive_12_mon > 3.00"
         ],
         "Quantity covered": 112,
-        "confidence interval": 0.9615384615384616
+        "confidence interval": 0.945619335347432
     },
     {
         "condition": [
             "Total_Trans_Ct <= 40.00",
-            "Total_Relationship_Count <= 2.00",
+            "Total_Revolving_Bal <= 0.00"
+        ],
+        "Quantity covered": 368,
+        "confidence interval": 0.9310878823073945
+    },
+    {
+        "condition": [
+            "Total_Trans_Amt > 4620.00",
+            "Total_Revolving_Bal <= 1000.00",
+            "Months_Inactive_12_mon > 2.00",
+            "Income_Category_$80K - $120K > 0.00"
+        ],
+        "Quantity covered": 43,
+        "confidence interval": 0.8492462311557789
+    },
+    {
+        "condition": [
+            "Total_Trans_Ct <= 54.00",
+            "Total_Relationship_Count <= 2.00"
+        ],
+        "Quantity covered": 438,
+        "confidence interval": 0.9479940564635958
+    },
+    {
+        "condition": [
+            "Total_Trans_Ct <= 54.00",
+            "Total_Relationship_Count <= 2.00"
+        ],
+        "Quantity covered": 438,
+        "confidence interval": 0.9425878320479862
+    },
+    {
+        "condition": [
+            "Total_Trans_Ct <= 40.00",
+            "Total_Ct_Chng_Q4_Q1 <= 0.50",
+            "Total_Relationship_Count <= 3.00"
+        ],
+        "Quantity covered": 282,
+        "confidence interval": 0.939487975174554
+    },
+    {
+        "condition": [
+            "Total_Trans_Ct <= 40.00",
+            "Total_Ct_Chng_Q4_Q1 <= 0.50",
+            "Months_Inactive_12_mon > 3.00"
+        ],
+        "Quantity covered": 56,
+        "confidence interval": 0.9666666666666667
+    },
+    {
+        "condition": [
+            "Total_Trans_Ct <= 54.00",
+            "Total_Revolving_Bal <= 1000.00",
             "Total_Trans_Amt <= 2804.00"
         ],
-        "Quantity covered": 211,
-        "confidence interval": 0.9769307923771314
+        "Quantity covered": 923,
+        "confidence interval": 0.9174454828660437
+    },
+    {
+        "condition": [
+            "Total_Trans_Ct <= 54.00",
+            "Total_Relationship_Count <= 2.00"
+        ],
+        "Quantity covered": 438,
+        "confidence interval": 0.9390414146114472
+    },
+    {
+        "condition": [
+            "Total_Trans_Ct <= 40.00",
+            "Total_Ct_Chng_Q4_Q1 <= 0.50",
+            "Months_Inactive_12_mon > 3.00"
+        ],
+        "Quantity covered": 56,
+        "confidence interval": 0.9714285714285714
+    },
+    {
+        "condition": [
+            "Total_Relationship_Count <= 2.00",
+            "Total_Revolving_Bal <= 1000.00",
+            "Months_Inactive_12_mon > 2.00",
+            "Income_Category_$60K - $80K > 0.00",
+            "Avg_Utilization_Ratio <= 0.10",
+            "Education_Level_Uneducated <= 0.00",
+            "Card_Category_Gold <= 0.00",
+            "Income_Category_Unknown <= 0.00",
+            "Credit_Limit <= 11072.50"
+        ],
+        "Quantity covered": 17,
+        "confidence interval": 0.8424153166421208
+    },
+    {
+        "condition": [
+            "Total_Trans_Ct <= 40.00",
+            "Avg_Utilization_Ratio <= 0.00"
+        ],
+        "Quantity covered": 368,
+        "confidence interval": 0.9180128009753125
+    },
+    {
+        "condition": [
+            "Total_Trans_Ct <= 40.00",
+            "Total_Relationship_Count <= 2.00"
+        ],
+        "Quantity covered": 216,
+        "confidence interval": 0.9450879450879451
+    },
+    {
+        "condition": [
+            "Total_Trans_Ct <= 40.00",
+            "Total_Ct_Chng_Q4_Q1 <= 0.50",
+            "Total_Trans_Amt > 2046.00"
+        ],
+        "Quantity covered": 153,
+        "confidence interval": 0.9380952380952381
     }
 ]
